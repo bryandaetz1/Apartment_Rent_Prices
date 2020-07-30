@@ -4,7 +4,7 @@ Scraping data from apartments.com to train ML model that estimates rent prices f
 ## Packages used for web scraping:
 <ul>
   <li>selenium
-  <li>time
+  <li>re (regular expressions)
   <li>pandas
 </ul>
 
