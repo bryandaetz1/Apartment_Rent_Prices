@@ -22,7 +22,7 @@ driver.set_window_size(1120, 1000)
 url = 'https://www.apartments.com/santa-barbara-ca/'
 
 #number of pages to scrape, looks like there are 25 listings per page
-num_pages = 1
+num_pages = 28
 
 #max delay for WebDriverWait function
 max_delay = 5
@@ -102,5 +102,4 @@ for j in range(num_pages):
 #resetting index for dataframe
 df.reset_index(drop = True, inplace = True)
 
-
-
+df.to_csv('sb_apartment_data.csv', index = False)
