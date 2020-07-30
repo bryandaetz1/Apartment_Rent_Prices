@@ -95,9 +95,6 @@ for j in range(num_pages):
         #adding data from this listing to larger dataframe with data for all listings
         df = pd.concat([df, listing_df], axis = 0, sort = False)
         
-        #work around for the fact that there seem to be elements with class = "rent" with no values
-        #hopefully this can be eliminated by using a different find_elements_by function
-        #df = df.loc[df['Rent'] != '']  
         
         driver.back()   #to go back to main page
         
