@@ -20,7 +20,7 @@ options = webdriver.ChromeOptions()
 driver = webdriver.Chrome(options = options)
 driver.set_window_size(1120, 1000)
     
-url = 'https://www.apartments.com/santa-barbara-ca/'
+url = 'https://www.apartments.com/oakland-ca/'
 
 #number of pages to scrape, looks like there are 25 listings per page
 num_pages = 28
@@ -106,4 +106,4 @@ for j in range(num_pages):
 #resetting index for dataframe
 df.reset_index(drop = True, inplace = True)
 
-df.to_csv('sb_apartment_data.csv', index = False)
+df.to_csv('oakland_apartment_data.csv', index = False)
