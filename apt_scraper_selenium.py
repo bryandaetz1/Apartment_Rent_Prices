@@ -5,6 +5,7 @@ Created on Sun Jul 26 13:39:55 2020
 @author: bdaet
 """
 from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -78,16 +79,19 @@ for j in range(num_pages):
         #getting elements for each apartment
         rows = driver.find_elements_by_class_name('rentalGridRow')
         for row in rows:
-            if row.find_element_by_class_name('rent').text == u'':
+            try:
+                if row.find_element_by_class_name('rent').text == u'':
+                    continue
+                listings_dict['Bedrooms'].append(row.find_element_by_class_name('beds').text)
+                listings_dict['Bathrooms'].append(row.find_element_by_class_name('baths').text)
+                listings_dict['Rent'].append(row.find_element_by_class_name('rent').text)
+                listings_dict['Square Footage'].append(row.find_element_by_class_name('sqft').text)
+                listings_dict['Availability'].append(row.find_element_by_class_name('available').text)
+                listings_dict['Title'].append(title)
+                listings_dict['Address'].append(address)
+                listings_dict['Amenities'].append(amenity_string)
+            except NoSuchElementException:
                 continue
-            listings_dict['Bedrooms'].append(row.find_element_by_class_name('beds').text)
-            listings_dict['Bathrooms'].append(row.find_element_by_class_name('baths').text)
-            listings_dict['Rent'].append(row.find_element_by_class_name('rent').text)
-            listings_dict['Square Footage'].append(row.find_element_by_class_name('sqft').text)
-            listings_dict['Availability'].append(row.find_element_by_class_name('available').text)
-            listings_dict['Title'].append(title)
-            listings_dict['Address'].append(address)
-            listings_dict['Amenities'].append(amenity_string)
         
         #converting dictionary to dataframe
         listing_df = pd.DataFrame(listings_dict)
