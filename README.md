@@ -38,18 +38,18 @@ Performed more feature engineering during my exploratory data analysis:
 * Took natural log of rent and square footage columns to address positive skewness observed in distributions
 * Dropped some of the amenities features that were infrequent, unclear or less impactful 
 
-<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/heatmap.png" alt="heatmap" width="750"/>
+<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/heatmap.png" alt="heatmap" width="800"/>
 
-![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/rent_and_sqft_by_bedrooms.png "Rent/Sqft by Bedroom Size")  
+<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/rent_and_sqft_by_bedrooms.png" alt="table" width="650"/>
 
 <img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/bed_barplot.png" alt="bed_barplot" width="450"/> <img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/bath_barplot.png" alt="bath_barplot" width="450"/>
 
+<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/sqft_scatterplot.png" alt="scatter" width="550"/>
 
-![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/sqft_scatterplot.png "Square Footage Scatterplot")
+<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/rent_by_city.png" alt="rent_by_city" width="800"/>  
 
-![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/rent_by_city.png "Rent Prices by City")   
+<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/rent_by_zip_code.png" alt="rent_by_zip" width="800"/>  
 
-![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/rent_by_zip_code.png "Rent Prices by Zip Code")  
 
 # Model Building
 Compared 4 different models and evaluated performance on validation set:
