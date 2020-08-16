@@ -63,7 +63,8 @@ Compared 4 different models and evaluated performance on validation set:
 
 
 # Choosing Final Model (Random Forest)
-After tuning hyperparameters, the final random forest model achieved the following results on the test set:    
+After tuning hyperparameters, the final random forest model achieved the following results on the test set:  
+    
 **Root Mean Square Error:** 364.64 (in dollars)   
 **R<sup>2</sup> Score:** 0.896   
 **Adjusted R<sup>2</sup> Score:** 0.895   
