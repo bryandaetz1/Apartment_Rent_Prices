@@ -38,14 +38,12 @@ Performed more feature engineering during my exploratory data analysis:
 * Took natural log of rent and square footage columns to address positive skewness observed in distributions
 * Dropped some of the amenities features that were infrequent, unclear or less impactful 
 
-
-![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/heatmap.png "Heat Map")  
+<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/heatmap.png" alt="heatmap" width="750"/>
 
 ![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/rent_and_sqft_by_bedrooms.png "Rent/Sqft by Bedroom Size")  
 
-![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/bed_barplot.png "Bedroom Size Barplot")  
+<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/bed_barplot.png" alt="bed_barplot" width="450"/> <img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/bath_barplot.png" alt="bath_barplot" width="450"/>
 
-![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/bath_barplot.png "Bathroom Size Barplot")  
 
 ![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/sqft_scatterplot.png "Square Footage Scatterplot")
 
