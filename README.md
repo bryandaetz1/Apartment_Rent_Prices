@@ -44,7 +44,7 @@ Performed more feature engineering during my exploratory data analysis:
 
 <img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/bed_barplot.png" alt="bed_barplot" width="450"/> <img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/bath_barplot.png" alt="bath_barplot" width="450"/>
 
-<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/sqft_scatterplot.png" alt="scatter" width="550"/>
+<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/rent_and_sqft_by_bedrooms.png" alt="table" width="450"/> <img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/sqft_scatterplot.png" alt="scatter" width="450"/>
 
 <img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/rent_by_city.png" alt="rent_by_city" width="800"/>  
 
@@ -58,9 +58,10 @@ Compared 4 different models and evaluated performance on validation set:
 * Random Forest
 * XGBoost
 
-![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/comparing_ML_models.png "Comparing RMSE and R^2")  
+<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/comparing_ML_models.png" alt="comparing_ML_models" width="550"/>  
 
-![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/models_distribution.png "Distribution of Predictions vs. Actual Values on Validation Set")
+<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/models_distribution.png" alt="distribution" width="750"/>  
+
 
 # Choosing Final Model (Random Forest)
 
