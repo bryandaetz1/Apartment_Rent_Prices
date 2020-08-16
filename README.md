@@ -11,11 +11,15 @@
 **Packages:**   
 * **Web Scraping:** selenium, pandas, re
 * **Data Cleaning/Feature Engineering:** pandas, numpy, re, matplotlib, seaborn, sklearn, nltk
-* **EDA/Model Building:** pandas, numpy, matplotlib, seaborn, scipy, sklearn, xgboost
+* **EDA/Model Building:** pandas, numpy, matplotlib, seaborn, scipy, sklearn, xgboost    
+* **To Load Requirements to Run Pickled ML Model:** `pip install -r requirements.txt`
+
 **Sources Referenced:**
 * [Tutorial](https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905) on scraping Glassdoor using selenium  
 * Selenium unofficical [documentation](https://selenium-python.readthedocs.io/)  
-* [Guide](https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2) on productionizing an ML model (used for reference on how to pickle and load a model)  
+* [Guide](https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2) on productionizing an ML model (used for reference on how to pickle and load an ML model)  
+
+
 
 
 
