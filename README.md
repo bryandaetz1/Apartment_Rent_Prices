@@ -26,7 +26,8 @@
 * Applied NLP techniques (bag of words) and fit a random forest regression model using just the bedroom size and raw text from the amenities column to gain insight on features that may be useful to extract from the amenities text
 
 ### Feature Importances from NLP Model
-![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/BOW_feature_importances.png "Bag of Words Feature Importances")  
+
+<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/BOW_feature_importances.png" alt="bow_feature_importances" width="800"/>  
 
 # Exploratory Data Analysis
 Performed more feature engineering during my exploratory data analysis:
