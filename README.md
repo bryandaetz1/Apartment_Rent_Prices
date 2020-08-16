@@ -6,7 +6,7 @@
   <li>Collaborated with a friend to productionize this ML model and use it to create a web app. Web app can be accessed here: http://3.128.33.149/    
 </ul>  
 
-## Packages Used and Sources Referenced  
+# Packages Used and Sources Referenced  
 **Python Version:** 3.7  
 **Packages:**   
 * **Web Scraping:** selenium, pandas, re
@@ -19,7 +19,7 @@
 * Selenium unofficical [documentation](https://selenium-python.readthedocs.io/)  
 * [Guide](https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2) on productionizing an ML model (used for reference on how to pickle and load an ML model)  
 
-## Data Cleaning & Feature Engineering
+# Data Cleaning & Feature Engineering
 * Created 3 new features from address: city, neighborhood and zip code
 * Stripped text from numerical features (bedrooms, bathrooms, rent, square footage)
 * For listings that had a range for rent and/or square footage, converted the range into an average
@@ -28,7 +28,7 @@
 ### Feature Importances from NLP Model
 ![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/BOW_feature_importances.png "Bag of Words Feature Importances")  
 
-## Exploratory Data Analysis
+# Exploratory Data Analysis
 Performed more feature engineering during my exploratory data analysis:
 * Removed some of the outliers (some rent prices were $15,000+)
 * Chose to drop neighborhood feature and use only zip codes and cities
@@ -53,7 +53,7 @@ Performed more feature engineering during my exploratory data analysis:
 
 ![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/rent_by_zip_code.png "Rent Prices by Zip Code")  
 
-## Model Building
+# Model Building
 Compared 4 different models and evaluated performance on validation set:
 * Multiple Linear Regression
 * Support Vector Machine
@@ -64,7 +64,7 @@ Compared 4 different models and evaluated performance on validation set:
 
 ![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/models_distribution.png "Distribution of Predictions vs. Actual Values on Validation Set")
 
-## Choosing Final Model (Random Forest)
+# Choosing Final Model (Random Forest)
 
 
 
