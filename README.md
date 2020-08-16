@@ -27,7 +27,7 @@
 
 ### Feature Importances from NLP Model
 
-<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/BOW_feature_importances.png" alt="bow_feature_importances" width="800"/>  
+<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/BOW_feature_importances.png" alt="bow_feature_importances" width="900"/>  
 
 # Exploratory Data Analysis
 Performed more feature engineering during my exploratory data analysis:
@@ -40,8 +40,6 @@ Performed more feature engineering during my exploratory data analysis:
 * Dropped some of the amenities features that were infrequent, unclear or less impactful 
 
 <img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/heatmap.png" alt="heatmap" width="800"/>
-
-<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/rent_and_sqft_by_bedrooms.png" alt="table" width="650"/>
 
 <img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/bed_barplot.png" alt="bed_barplot" width="450"/> <img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/bath_barplot.png" alt="bath_barplot" width="450"/>
 
