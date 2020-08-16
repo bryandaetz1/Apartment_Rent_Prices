@@ -7,7 +7,8 @@ Created on Wed Aug 12 17:09:04 2020
 import pickle
 import numpy as np
 
-example = [1,1,625,0,1,1,0,1,0,0,1,0,0,0,1,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1]
+#example for debugging
+#example = [1,1,625,0,1,1,0,1,0,0,1,0,0,0,1,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1]
 
 def load_models():
     file_name = 'rent_estimator_model.p'
@@ -27,6 +28,6 @@ def predict_rent(x):
     prediction = np.round(np.exp(model.predict(x)))
     return prediction
     
-
-print(predict_rent(example))
+#test for debugging
+#print(predict_rent(example))
 
