@@ -63,6 +63,17 @@ Compared 4 different models and evaluated performance on validation set:
 
 
 # Choosing Final Model (Random Forest)
+After tuning hyperparameters, the final random forest model achieved the following results on the test set:    
+**Root Mean Square Error:** 364.64 (in dollars)   
+**R<sup>2</sup> Score:** 0.896   
+**Adjusted R<sup>2</sup> Score:** 0.895   
+
+<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/final_model_dist.png" alt="final_model_dist" width="750"/>   
+
+### Features Importances for Final Random Forest Model
+
+<img src="https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/rf_feature_importances.png" alt="rf_feature_importances" width="900"/>    
+
 
 
 
