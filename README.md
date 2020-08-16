@@ -19,6 +19,56 @@
 * Selenium unofficical [documentation](https://selenium-python.readthedocs.io/)  
 * [Guide](https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2) on productionizing an ML model (used for reference on how to pickle and load an ML model)  
 
+## Data Cleaning & Feature Engineering
+* Created 3 new features from address: city, neighborhood and zip code
+* Stripped text from numerical features (bedrooms, bathrooms, rent, square footage)
+* For listings that had a range for rent and/or square footage, converted the range into an average
+* Applied NLP techniques (bag of words) and fit a random forest regression model using just the bedroom size and raw text from the amenities column to gain insight on features that may be useful to extract from the amenities text
+
+### Feature Importances from NLP Model
+![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/BOW_feature_importances.png "Bag of Words Feature Importances")  
+
+## Exploratory Data Analysis
+Performed more feature engineering during my exploratory data analysis:
+* Removed some of the outliers (some rent prices were $15,000+)
+* Chose to drop neighborhood feature and use only zip codes and cities
+* Consolidated cities that appeared less frequently into an “Other” category
+* Consolidated zip codes that appeared less frequently into a “City Name - Other” category
+* Created dummy variables for categorical features
+* Took natural log of rent and square footage columns to address positive skewness observed in distributions
+* Dropped some of the amenities features that were infrequent, unclear or less impactful 
+
+
+![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/heatmap.png "Heat Map")  
+
+![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/rent_and_sqft_by_bedrooms.png "Rent/Sqft by Bedroom Size")  
+
+![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/bed_barplot.png "Bedroom Size Barplot")  
+
+![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/bath_barplot.png "Bathroom Size Barplot")  
+
+![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/sqft_scatterplot.png "Square Footage Scatterplot")
+
+![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/rent_by_city.png "Rent Prices by City")   
+
+![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/rent_by_zip_code.png "Rent Prices by Zip Code")  
+
+## Model Building
+Compared 4 different models and evaluated performance on validation set:
+* Multiple Linear Regression
+* Support Vector Machine
+* Random Forest
+* XGBoost
+
+![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/tree/master/Images/comparing_ML_models.png "Comparing RMSE and R^2")  
+
+![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/tree/master/Images/models_distribution.png "Distribution of Predictions vs. Actual Values on Validation Set")
+
+## Choosing Final Model (Random Forest)
+
+
+
+
 
 
 
