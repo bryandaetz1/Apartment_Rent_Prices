@@ -60,9 +60,9 @@ Compared 4 different models and evaluated performance on validation set:
 * Random Forest
 * XGBoost
 
-![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/tree/master/Images/comparing_ML_models.png "Comparing RMSE and R^2")  
+![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/comparing_ML_models.png "Comparing RMSE and R^2")  
 
-![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/tree/master/Images/models_distribution.png "Distribution of Predictions vs. Actual Values on Validation Set")
+![alt text](https://github.com/bryandaetz1/Apartment_Rent_Prices/blob/master/Images/models_distribution.png "Distribution of Predictions vs. Actual Values on Validation Set")
 
 ## Choosing Final Model (Random Forest)
 
