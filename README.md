@@ -1,9 +1,9 @@
 # Estimating Bay Area Rent Prices - Project Overview  
 <ul>
-  <li>Used selenium to scrape data from over 12,000 apartment listings on apartments.com in the San Jose, Oakland and San Francisco areas  
-  <li>Cleaned data from apartments.com and engineered features from raw text describing apartment amenities by applying NLP techniques to gain insight on what amenities might be useful to include in the final model  
+  <li>Used Selenium to scrape data from over 12,000 apartment listings on apartments.com in the San Jose, Oakland and San Francisco areas  
+  <li>Cleaned data and engineered features from raw text describing apartment amenities by applying NLP techniques to gain insight on what amenities might be useful to include in the final model  
   <li>Created an ML model that estimates rent prices (RMSE ~$365 on test set) given a number of inputs including # of bedrooms, # of bathrooms, square footage and amenities   
-  <li>Collaborated with a friend to productionize this ML model and use it to create a web app. Web app can be accessed here: http://3.128.33.149/    
+  <li>Productionized this ML model and collaborated with a friend to create an interactive web app. Web app can be accessed here: http://3.128.33.149/    
 </ul>  
 
 # Packages Used and Sources Referenced  
